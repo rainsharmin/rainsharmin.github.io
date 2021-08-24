@@ -18,9 +18,12 @@ h1 {
 	margin: 0;
 	color: #000;
 	font-family: 'Allison', cursive;
+	padding: 0;
+	display: inline-block;
 }
 
 h2 {
+	margin-top: 0;	
 	color: #D10F68;
 }
 
@@ -43,8 +46,8 @@ em {
 .main {
 	background-color:rgba(255,255,255,.9);
 	padding: 5%;
-border-radius:1em;
-  box-shadow:0 0 .25em rgba(0,0,0,.1);
+	border-radius:1em;
+    box-shadow:0 0 .25em rgba(0,0,0,.1);
   	//border: solid 1px #eee;
 }
 
@@ -56,10 +59,42 @@ border-radius:1em;
 .subsection {
 	margin-left: 20px;
 }
+
+h3 i {
+	margin-right: 10px;
+}
+
+i {
+	margin-right: 5px;
+}
 footer {
 	margin-top: 2%;
 	color: white;
 	text-align: center;
 	font-size: 0.8em;
 }
+
+.tooltip {
+	  position: relative;
+	  display: inline-block;
+	}
+	
+	.tooltip .tooltiptext {
+	  visibility: hidden;
+	  background-color: black;
+	  color: #fff;
+	  text-align: center;
+	  border-radius: 6px;
+	  padding: 5px;
+	  text-transform: lowercase;
+	  font-weight: 400;
+	  letter-spacing: 0;
+	  position: absolute;
+	  z-index: 1;
+	}
+	
+	.tooltip:hover .tooltiptext {
+	  visibility: visible;
+	}
+	
 
