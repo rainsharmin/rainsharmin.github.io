@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<meta charset="utf-8">
+	<title>PRISM Winter 2022: Course Website</title>
+	<meta content="" name="description">
+	<meta content="" name="author"><!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<meta content="width=device-width, initial-scale=1" name="viewport"><!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"><!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+
+	<script src="https://kit.fontawesome.com/0ce86f861a.js">
+	</script><!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<link href="css/normalize.css" rel="stylesheet">
+	<link href="css/skeleton.css" rel="stylesheet">
+	<link href="css/custom.css?v=5" rel="stylesheet">
+	<link href="css/hamburger.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+	<link href="animsition/css/animsition.min.css" rel="stylesheet"><!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">
+	</script>
+	<script src="https://code.jquery.com/jquery-1.12.4.js">
+	</script>
+	<script src="js/jquery-ui.js">
+	</script>
+	<script src="js/persistent-checkboxes.js">
+	</script>
+	<script charset="utf-8" src="animsition/js/animsition.min.js">
+	</script>
+	<script charset="utf-8" src="js/menu.js">
+	</script><!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<link href="images/favicon.png" rel="icon" type="image/png">
+</head>
+
+
+<body class="animsition">
+
+	<div class="overlay-slide"></div><span class="button-bg-slide"></span>
+	<nav>
+		<button class="hamburger hamburger--spin" type="button">
+			<!--<span class="hamburger-inner"></span>--><i class="fas fa-question-circle fa-2x fa-fw"></i></button>
+	</nav>
+
+	<div class="menu-overlay">
+		<section class="menu-content">
+			<h3>about PRISM</h3>
+
+
+			<div class="flex-grid">
+				<p>
+				The ability to take part in world-class research projects is one of the most exciting opportunities at a major research university, but it may not be obvious how to get started. PRISM is a new program for second-year Computer Science undergraduates to help get your feet wet in research.
+	</p><p>
+	The name stands for Preparation for Research through Immersion, Skills, and Mentorship. This captures exactly what the program is about: you’ll learn about and practice research skills, interact with grad student mentors, and be immersed in parts of the research process.
+	</p><p>
+	We’ll hold six two-hour workshops throughout the winter term. These workshops will include lectures by faculty on key research skills (e.g. reading papers, formulating plans, designing experiments, writing papers, giving talks) and in-class activities to practice these skills. You’ll also hear from professors and grad students about their own stories of how they first got involved in research.
+	</p><p>
+	At the end of the term, we’ll hold a virtual poster session where you and the other participants will present literature reviews on research topics you find exciting.
+</p><p>
+	You can see what we did for PRISM in the past Winter 2021 semester <a href="https://www.cs.toronto.edu/~rgrosse/courses/prism_2021/">here</a></p>
+	<!--
+				<div class="flex-row">
+					<div class="mini-grid">
+						<span class="icon"><i class="fa fa-exclamation-circle fa-4x fa-fw"></i></span>
+						<h4>announcements</h4><span class="h4-tag">on <a href="https://q.utoronto.ca/courses/175799" target="_blank">quercus</a></span>
+					</div>
+					<div class="mini-grid">
+						<span class="icon"><i class="far fa-file-alt fa-4x fa-fw"></i></span>
+						<h4>syllabus</h4><span class="h4-tag">download <a href="syllabus.pdf">pdf</a></span>
+					</div>
+				</div>
+				<div class="flex-row">
+					<div class="mini-grid">
+						<span class="icon"><i class="fas fa-book fa-4x fa-fw"></i></span>
+						<h4>course notes</h4><span class="h4-tag">weekly readings <a class="animsition-link" href="notes.html">here</a></span>
+					</div>
+					<div class="mini-grid">
+						<span class="icon"><i class="fas fa-tools fa-4x fa-fw"></i></span>
+						<h4>course tools</h4><span class="h4-tag">details <a href="tools.html">here</a></span>
+					</div>
+				</div>
+				<div class="flex-row">
+					<div class="mini-grid">
+						<span class="icon"><i class="far fa-check-circle fa-4x fa-fw"></i></span>
+						<h4>quizzes/tests</h4><span class="h4-tag">on <a href="https://q.utoronto.ca/courses/175799" target="_blank">quercus</a></span>
+					</div>
+					<div class="mini-grid">
+						<span class="icon"><i class="fab fa-github fa-4x fa-fw"></i></span>
+						<h4>assignments</h4><span class="h4-tag">on <a href="https://github.com/">GitHub classroom</a></span>
+						<!--<span class="h4-tag-smaller">(coming soon)</span>
+					</div>
+				</div>
+				<div class="flex-row">
+					<div class="mini-grid">
+						<span class="icon"><i class="fas fa-comments fa-4x fa-fw"></i></span>
+						<h4>discussions</h4><span class="h4-tag">on <a href="http://piazza.com/utm.utoronto.ca/fall2020/csc207h5" target="_blank">piazza</a></span>
+					</div>
+					<div class="mini-grid">
+						<span class="icon"><i class="fab fa-discord fa-4x fa-fw"></i></span>
+						<h4>feeling lonely?</h4><span class="h4-tag">chat on our <a href="https://discord.com/" target="_blank">discord</a></span>
+						<span class="h4-tag-smaller">(invite link on <a href="https://q.utoronto.ca/courses/175799">Quercus</a>)</span>
+					</div>
+				</div>-->
+			</div>
+
+
+</section>
+	</div>
+
+
+	<div id="container">
+
+	<header>
+
+	<div class="row">
+				<div class="twelve columns">
+					<h1>PRISM</h1><span class="vertical-heading">Winter '22</span>
+				</div>
+	</div>
+
+	<div class="row">
+				<div class="twelve columns">
+					<h2>Preparation for Research through Immersion, Skills, and Mentorship</h2>
+				</div>
+	</div>
+
+	<div class="row">
+				<div class="twelve columns">
+					<!--<h3>The ability to take part in world-class research projects is one of the most exciting opportunities at a major research university, but it may not be obvious how to get started. <br/></br>-->
+
+					<h3>In this program, you will learn about and practice <strong>research skills</strong>, interact with <strong>grad student mentors</strong>, and be immersed in parts of the <strong>research process</strong>.</h3>
+				</div>
+			</div>
+
+<!--	<section class="course-links">
+				<div class="flex-row">
+					<div class="mini-grid">
+						<span class="icon"><i class="fas fa-clock fa-4x fa-fw"></i></i></span>
+						<h4>tuesdays</h4><span class="h4-tag">10am - 12pm</a></span>
+					</div>
+					<div>
+					Class will be held synchronously online roughly every other week. Classes will include lectures on research skills, talks by researchers, and interactive activities to practice the research skills.
+				</div>-->
+					<!--<div class="mini-grid">
+						<span class="icon"><i class="far fa-file-alt fa-4x fa-fw"></i></span>
+						<h4>syllabus</h4><span class="h4-tag">download <a href="syllabus.pdf">pdf</a></span>
+					</div>
+					<div class="mini-grid">
+						<span class="icon"><i class="fas fa-tools fa-4x fa-fw"></i></span>
+						<h4>course tools</h4><span class="h4-tag">details <a href="tools.html">here</a></span>
+					</div>-->
+			<!--	</div>
+			</section>
+
+			<div class="footnote" id="scroll-note">
+
+			<div class="row arrow">
+				<span></span> <span></span> <span></span>
+			</div>
+
+			scroll for weekly breakdown
+		</div>-->
+
+	</header>
+
+	<article>
+
+		<h3><i class="fas fa-clock fa-fw"></i>When to meet</h3>
+		<section>
+			<div class="row" style="margin-top: 0px; padding: 0;">
+				<!--<div class="two columns panel-date">
+					<i class="fas fa-clock fa-fw"></i>
+				</div>-->
+				<div class="content-box">
+					<h5>THURSDAYS 10AM-12PM</h5>
+
+					<span class="label-body">
+						<p>Class will be held synchronously online roughly every other week.
+</p>
+						<p>Classes will include lectures on research skills, talks by researchers, and interactive activities to practice the research skills.
+				</p></span>
+
+				</div>
+			</div>
+		</section>
+
+		<h3><i class="fas fa-calendar fa-fw"></i>Schedule</h3>
+		<section>
+			<div class="row" style="margin-top: 0px; padding: 0;">
+				<!--<div class="two columns panel-date">
+					<i class="fas fa-clock fa-fw"></i>
+				</div>-->
+				<div class="content-box">
+					<h5>MEETING DATES AND TOPICS</h5>
+
+					<span class="label-body">
+						<table width=800>
+  <tr>
+    <td width="10%"><b>&#35;</b></td>
+    <td width="10%"><b>Dates</b></td>
+    <td width="55%"><b>Topic</b> </td>
+  </tr>
+  <tr>
+    <td><b>1</b></td>
+    <td>1/22</td>
+    <td>
+      <p><b>Overview of Computer Science Research</b></p>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td><b>2</b></td>
+    <td>2/5</td>
+    <td>
+      <p><b>Learning about Prior Work</b></p>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td><b>3</b></td>
+    <td>2/19</td>
+    <td>
+      <p><b>Writing Papers</b></p>
+    </td>
+
+  </tr>
+  <tr>
+    <td><b>4</b></td>
+    <td>3/5</td>
+    <td>
+      <p><b>Giving Talks and Presenting Posters</b></p>
+    </td>
+
+  </tr>
+  <tr>
+    <td><b>5</b></td>
+    <td>3/19</td>
+    <td>
+      <p><b>Embarking on a Research Career (Preparing for Grad School)</b></p>
+    </td>
+
+  </tr>
+  <tr>
+    <td><b>6</b></td>
+    <td>4/9</td>
+    <td>
+      <p><b>Presentation Day!</b> </p>
+    </td>
+
+  </tr>
+</table>
+
+<p>Note: The above is a tentative schedule, and may change as the term goes on.
+				</p></span>
+
+				</div>
+			</div>
+		</section>
+
+
+
+		<h3><i class="fas fa-microphone-alt fa-fw"></i>Research Talks</h3>
+		<section>
+			<div class="row" style="margin-top: 0px; padding: 0;">
+				<!--<div class="two columns panel-date">
+					<i class="fas fa-clock fa-fw"></i>
+				</div>-->
+				<div class="content-box">
+					<h5 style="text-align: center;">(MORE INFO COMING SOON)</h5>
+
+					<span class="label-body">
+						</span>
+
+				</div>
+			</div>
+		</section>
+
+		<!--<h3>Who we are</h3>
+		<section>
+
+		</section>-->
+
+
+	</div> <!-- Accordion End -->
+
+
+
+
+
+
+
+	<footer>
+		<div class="grid-container">
+			<div class="item1">
+				<!--<h5>let's chat</h5>
+				<p class="h5-tag">we're all in this together</p>-->
+				<h5>about us</h5>
+				<p class="h5-tag">the teaching staff</p>
+			</div>
+
+			<div class="item2">
+				<h6 style="text-align: center">your instructors</h6>
+				<div class="info-cards">
+					<div class="instructor1 instructor-card">
+						<!--<div class="label">
+							COURSE COORDINATOR*
+						</div>-->
+						<div class="image"><img class="avatar-icon" src="images/ishtiaque-img1.png"></div>
+						<div class="card-content">
+							<div class="title">
+								Ishtiaque Ahmed
+								<div class="tooltip">
+									<i class="fas fa-envelope"></i> <span class="tooltiptext">ishtiaque AT cs.toronto.edu<sub>(note: include PRISM in the subject line)</sub></span>
+								</div><span class="subtitle">(He/Him)</span>
+							</div>
+							<p class="info"><strong>about me:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae ultrices mi. Duis tempus turpis nec neque semper scelerisque.</sub>
+						</div>
+					</div>
+
+					<div class="instructor2 instructor-card">
+
+						<div class="card-content">
+							<div class="image"><img class="avatar-icon" src="images/sadia-img1.jpg"></div>
+							<div class="title">
+								Sadia Sharmin
+								<div class="tooltip">
+									<i class="fas fa-envelope"></i> <span class="tooltiptext">s.sharmin AT utoronto.ca<sub>(note: include PRISM in the subject line)</sub></span>
+								</div><span class="subtitle">(She/Her)</span>
+							</div>
+							<p class="info"><strong>about me:</strong> my phd was about creativity and cs education / i like writing poems / i enjoy jrpgs and board games / i love eating cake / i have many <a href="http://instagram.com/bumblythecloud" target="_blank">furbabies</a></p>
+
+							<!--<sub>*email me for personal concerns/emergencies; otherwise, ask on <a href="http://piazza.com/utm.utoronto.ca/fall2020/csc207h5" target="_blank">piazza</a> :)</sub>-->
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="item3">
+				<h6>your mentors</h6>
+
+
+				<div class="mini-grid-alt">
+				(coming soon)
+				</div>
+				<div class="mini-grid">
+					<span class="icon"><i class="fas fa-spinner fa-4x fa-fw"></i></span>
+
+					<h4><em>(coming soon)</em></h4>
+				</div>
+
+				<!--<p class="subtext">.</em></p>-->
+			</div>
+			<div class="item4">
+				<h6>want to make friends?</h6>
+
+				<div class="mini-grid-alt">
+				chat with PRISM mates <br/>on our <a href="https://discord.com" target="_blank">discord</a> server
+
+				</div>
+
+				<div class="mini-grid">
+					<span class="icon"><i class="fab fa-discord fa-4x fa-fw"></i></span>
+					<h4>meet your classmates</h4><span class="h4-tag" style="line-height: 25px">on our <a href="https://discord.com" target="_blank">discord</a> server</span>
+
+
+				</div>
+				<p class="subtext">Invite link will be sent to you via email!</p>
+
+			</div>
+		</div>
+		<div class="footnote">
+			site designed by sadia • best viewed with <a href="https://www.google.ca/chrome/">chrome</a> or <a href="https://www.firefox.com">firefox</a>
+		</div>
+
+
+
+
+	</footer>
+
+
+	</div> <!-- Container End -->
+
+	<script>
+
+			var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (currentScrollPos == 0) {
+    document.getElementById("scroll-note").style.opacity = "1";
+  } else {
+    document.getElementById("scroll-note").style.opacity = "0";
+  }
+  prevScrollpos = currentScrollPos;
+}
+
+	       $(document).ready(function() {
+	           $(".animsition").animsition({
+	               inClass: 'fade-in',
+	               outClass: 'fade-out',
+	               inDuration: 1500,
+	               outDuration: 800,
+	               loadingClass: "animsition-loading"
+	           });
+	       });
+
+/*
+	       $(function() {
+	           $("#accordion").accordion();
+	       });
+
+
+	       $('#accordion').accordion({
+	           collapsible: true,
+	           active: 0,
+	           heightStyle: "content",
+
+	           beforeActivate: function(event, ui) {
+	               // The accordion believes a panel is being opened
+	               if (ui.newHeader[0]) {
+	                   var currHeader = ui.newHeader;
+	                   var currContent = currHeader.next('.ui-accordion-content');
+	                   // The accordion believes a panel is being closed
+	               } else {
+	                   var currHeader = ui.oldHeader;
+	                   var currContent = currHeader.next('.ui-accordion-content');
+	               }
+	               // Since we've changed the default behavior, this detects the actual status
+	               var isPanelSelected = currHeader.attr('aria-selected') == 'true';
+
+	               // Toggle the panel's header
+	               currHeader.toggleClass('ui-corner-all', isPanelSelected).toggleClass('accordion-header-active ui-state-active ui-corner-top', !isPanelSelected).attr('aria-selected', ((!isPanelSelected).toString()));
+
+	               // Toggle the panel's icon
+	               currHeader.children('.ui-icon').toggleClass('ui-icon-triangle-1-e', isPanelSelected).toggleClass('ui-icon-triangle-1-s', !isPanelSelected);
+
+	               // Toggle the panel's content
+	               currContent.toggleClass('accordion-content-active', !isPanelSelected)
+	               if (isPanelSelected) {
+	                   currContent.slideUp();
+	               } else {
+	                   currContent.slideDown();
+	               }
+
+	               return false; // Cancels the default action
+	           }
+	       });*/
+	</script>
+</body>
+</html>
