@@ -1,0 +1,100 @@
+body, button, input, optgroup, select, textarea {
+	font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	background: url('images/ep_naturalblack.png');
+}
+
+a {
+	  color: #D10F68;
+	  text-decoration: none;
+	  -webkit-transition: .2s;
+	}
+	
+	a:hover {
+	  color: grey;
+	}
+	
+h1 {
+	font-size: 6em;
+	margin: 0;
+	color: #000;
+	font-family: 'Allison', cursive;
+	padding: 0;
+	display: inline-block;
+}
+
+h2 {
+	margin-top: 0;	
+	color: #D10F68;
+}
+
+h3 {
+	color: #720E30;
+}
+
+div {
+	margin: 1% auto;
+}
+
+section {
+	color: #444;
+}
+
+em {
+	color: #888;
+}
+
+.main {
+	background-color:rgba(255,255,255,.9);
+	padding: 5%;
+	border-radius:1em;
+    box-shadow:0 0 .25em rgba(0,0,0,.1);
+  	//border: solid 1px #eee;
+}
+
+.container {
+	margin: 5% auto;
+	width: 60%;
+}
+
+.subsection {
+	margin-left: 20px;
+}
+
+h3 i {
+	margin-right: 10px;
+}
+
+i {
+	margin-right: 5px;
+}
+footer {
+	margin-top: 2%;
+	color: white;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+.tooltip {
+	  position: relative;
+	  display: inline-block;
+	}
+	
+	.tooltip .tooltiptext {
+	  visibility: hidden;
+	  background-color: black;
+	  color: #fff;
+	  text-align: center;
+	  border-radius: 6px;
+	  padding: 5px;
+	  text-transform: lowercase;
+	  font-weight: 400;
+	  letter-spacing: 0;
+	  position: absolute;
+	  z-index: 1;
+	}
+	
+	.tooltip:hover .tooltiptext {
+	  visibility: visible;
+	}
+	
+
