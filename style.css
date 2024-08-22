@@ -1,34 +1,37 @@
 body, button, input, optgroup, select, textarea {
 	font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-	background: url('images/ep_naturalblack.png');
 }
 
 a {
-	  color: #D10F68;
+			color: #D10F68;
 	  text-decoration: none;
 	  -webkit-transition: .2s;
 	}
-	
+
 	a:hover {
-	  color: grey;
+		color: #AA336A;
 	}
-	
+
 h1 {
-	font-size: 6em;
+	font-size: 3em;
 	margin: 0;
-	color: #000;
-	font-family: 'Allison', cursive;
+	color: #E30B5C;
 	padding: 0;
 	display: inline-block;
 }
 
 h2 {
-	margin-top: 0;	
-	color: #D10F68;
+	margin-top: 0;
+  font-size: 1.2em;
+	color: #aaa;
 }
 
 h3 {
-	color: #720E30;
+	color: #E0115F;
+}
+
+h4 {
+	font-size: 1em;
 }
 
 div {
@@ -48,7 +51,7 @@ em {
 	padding: 5%;
 	border-radius:1em;
     box-shadow:0 0 .25em rgba(0,0,0,.1);
-  	//border: solid 1px #eee;
+  	border: solid 1px #eee;
 }
 
 .container {
@@ -68,8 +71,8 @@ i {
 	margin-right: 5px;
 }
 footer {
-	margin-top: 2%;
-	color: white;
+	margin-top: 5%;
+	color: #ccc;
 	text-align: center;
 	font-size: 0.8em;
 }
@@ -77,24 +80,31 @@ footer {
 .tooltip {
 	  position: relative;
 	  display: inline-block;
+		margin-left: 5px;
+	  color: #720E30;
 	}
-	
+
 	.tooltip .tooltiptext {
 	  visibility: hidden;
-	  background-color: black;
+	  background-color: #AA336A	;
 	  color: #fff;
 	  text-align: center;
 	  border-radius: 6px;
-	  padding: 5px;
+	  padding: 2px;
 	  text-transform: lowercase;
 	  font-weight: 400;
 	  letter-spacing: 0;
 	  position: absolute;
 	  z-index: 1;
+		font-size: 0.8em;
+		width: 220px;
 	}
-	
+
 	.tooltip:hover .tooltiptext {
 	  visibility: visible;
 	}
-	
 
+.small {
+	font-size: 0.9em;
+	color: #720E30;
+}
